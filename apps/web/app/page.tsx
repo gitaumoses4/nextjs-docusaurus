@@ -78,7 +78,7 @@ export default function Page(): JSX.Element {
         </div>
       </div>
 
-      <a href="/docs" appName="web" className={styles.button}>
+      <a href="/docs" className={styles.button}>
         Docusaurus Docs
       </a>
 
