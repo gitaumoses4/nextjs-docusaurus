@@ -4,10 +4,6 @@ module.exports = {
   async rewrites(){
     return [
       {
-        source: '/docs',
-        destination: '/docs/index.html',
-      },
-      {
         source: '/docs/:path*',
         destination: '/docs/index.html',
       },
