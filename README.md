@@ -16,7 +16,7 @@ cd nextjs-docusaurus
 pnpm install
 
 # Build the docusaurus site
-pnpm run build-docs
+pnpm run build:docs
 
 # Start the NextJS server
 pnpm run dev
@@ -32,9 +32,5 @@ The NextJS app serves the Docusaurus site as a static asset. The Docusaurus site
 This is important for the development of the docusaurus site.
 
 ```bash
-# Change directory
-cd apps/docs
-
-# Start the docusaurus server
-pnpm run start
+pnpm run docs
 ```
