@@ -5,6 +5,9 @@
 .pnp.js
 
 .idea/
+public/docs
+docusaurus/.docusaurus
+docusaurus/build
 
 # testing
 /coverage

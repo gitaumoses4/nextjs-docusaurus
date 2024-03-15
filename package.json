@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "docs": "docusaurus start",
+    "docs": "docusaurus start docusaurus",
+    "swizzle": "docusaurus swizzle docusaurus",
     "dev": "next dev",
-    "build:docs": "docusaurus build && rimraf public/docs && cd build && cpy * ../public/docs && cd .. && rimraf build",
+    "build:docs": "docusaurus build docusaurus && rimraf public/docs && cd docusaurus/build && cpy * ../../public/docs && cd .. && rimraf build",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings 0"
